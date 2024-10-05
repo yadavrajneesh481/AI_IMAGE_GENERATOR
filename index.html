@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IMAGE GENERATOR</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- Updated 13 December 2023 -->
+
+
+
+    <main>
+        <div class="generator">
+            <h1>📸 Image Generator 📸</h1>
+            <div class="input">
+                <br>
+                <input class="promptBox" type="text" id="prompt" placeholder="Enter prompt here">
+            </div>
+            <div>
+                <input class="heightWidth" type="text" id="hInput" placeholder="Height in px (optional)">
+                <input class="heightWidth" type="text" id="wInput" placeholder="Width in px (optional)">
+            </div>
+            <p>Made with ❤️ by <a href="https://github.com/yadavrajneesh481/AI_IMAGE_GENERATOR" target="_blank">Rajneesh
+                    Yadav</a></p>
+            <br>
+        </div>
+        <div>
+            <button id="generate">Generate Image</button>
+        </div>
+        </div>
+        <div class="output">
+            <h2 id="generatedText">Generated Image:</h2>
+            <div id="loading-spinner" class="loader"></div>
+            <div id="image-container">
+                <!-- The generated image will appear here -->
+            </div>
+            <div id="utilities">
+                <a id="dlButton" href="">download
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <br><br>
+</body>
+
+</html>
